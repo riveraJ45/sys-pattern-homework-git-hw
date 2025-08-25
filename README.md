@@ -1,15 +1,32 @@
 
-# Домашнее задание к занятию "Кластеризация и балансировка нагрузки" - `Ривера Александр Андреевич`
+# Домашнее задание к занятию "Кеширование Redis/memcached" - `Ривера Александр Андреевич`
 
 
 
 ### Задание 1
+Кеширование помогает решать такие проблемы укак
 
-![alt text](https://github.com/riveraJ45/sys-pattern-homework-git-hw/blob/main/Balanced/zadanie1/klaster2.jpg)
-https://github.com/riveraJ45/sys-pattern-homework-git-hw/blob/main/Balanced/zadanie1/haproxy.cfg
+Снижение нагрузки на базу данных – часто запрашиваемые данные (например, профиль пользователя или список категорий товаров) можно хранить в кеше, чтобы не выполнять повторные SQL-запросы.
+
+Ускорение отклика приложений – кеш позволяет отдавать результат мгновенно, не тратя время на вычисления или загрузку данных с диска.
+
+Снижение стоимости внешних API-запросов – если приложение интегрируется с внешними сервисами (например, погодным API), то кеширование ответов уменьшает число обращений и экономит деньги.
+
+Оптимизация тяжелых вычислений – если результат сложной операции (например, подсчёта 
+
+Стабильность при пиковых нагрузках – кеш уменьшает количество запросов к «тяжёлым» сервисам, снижая вероятность перегрузки.
 
 ### Задание 2 
 
-![alt text](https://raw.githubusercontent.com/riveraJ45/sys-pattern-homework-git-hw/refs/heads/main/Balanced/Zadanie%202/%D0%9D%D0%BE%D0%B2%D1%8B%D0%B9%20%D1%82%D0%BE%D1%87%D0%B5%D1%87%D0%BD%D1%8B%D0%B9%20%D1%80%D0%B8%D1%81%D1%83%D0%BD%D0%BE%D0%BA.bmp)
 
-https://github.com/riveraJ45/sys-pattern-homework-git-hw/blob/main/Balanced/Zadanie%202/haproxy.cfg
+![alt text](https://github.com/riveraJ45/sys-pattern-homework-git-hw/blob/main/%D0%9A%D0%B5%D1%88%D0%B8%D1%80%D0%BE%D0%B2%D0%B0%D0%BD%D0%B8%D0%B5%20Redismemcached/%D0%97%D0%B0%D0%B4%D0%B0%D0%BD%D0%B8%D0%B52.bmp)
+
+
+
+### Задание 3
+
+![alt text](https://github.com/riveraJ45/sys-pattern-homework-git-hw/blob/main/%D0%9A%D0%B5%D1%88%D0%B8%D1%80%D0%BE%D0%B2%D0%B0%D0%BD%D0%B8%D0%B5%20Redismemcached/%D0%97%D0%B0%D0%B4%D0%B0%D0%BD%D0%B8%D0%B53.bmp)
+
+### Задание 3
+
+![alt text](https://github.com/riveraJ45/sys-pattern-homework-git-hw/blob/main/%D0%9A%D0%B5%D1%88%D0%B8%D1%80%D0%BE%D0%B2%D0%B0%D0%BD%D0%B8%D0%B5%20Redismemcached/%D0%97%D0%B0%D0%B4%D0%B0%D0%BD%D0%B8%D0%B54.bmp)
